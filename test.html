@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css"/>
+    <link rel="stylesheet" href="test.css"> 
+    <link rel="stylesheet" href="nav.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+   
+</head>
+<body>
+    <!-- navigation bar -->
+    <div class="navbar" >
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  w-100"  >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="homepage.html">
+                  <img src="https://www.studytonight.com/css/resource.v3/images/st-logo.png" style="height: 40px;width: auto"  alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mr-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="library.html">Tutorial</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="test.html">Tests</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="forum.html">Forum</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="playground.html">Practice coding</a>
+                  </li>
+
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="curious.html">Curious</a>
+                  </li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link" href="learnhtml.html">Learn HTML</a>
+                  </li>
+                
+                </ul>
+                <form class="d-flex " id="search">
+                  <input class="form-control me-2" type="search" placeholder="Search Studytonight" aria-label="Search"  style="margin: auto"; >
+                  <i class="fas fa-search "></i>
+                  <button class="btn btn-outline-success" type="submit">Login</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </div>
+   <div class="container">
+       <div class="row mt-4">
+           <div class="col-md-6 align-self-center col-sm-12">
+               <h1 class="display-4 fs-3 fw-lighter"> <span style="color:blue">Prepare</span>for Interview/Exams</h1>
+               <div class="fw-lighter fs-4">Hand-curated Tests/Quizes, to help you polish your skills</div>
+               <div class="mt-4">
+                   <a href="/java" class="btn btn-outline-primary pe-5 btn m-1">Java</a>
+                   <a href="/c++" class="btn btn-outline-primary pe-5 btn m-1">C++</a>
+                   <a href="/c" class="btn btn-outline-primary btn pe-5 m-1">C Language</a>
+                   <a href="/dbms" class="btn btn-outline-primary pe-5 btn m-1">Dbms</a>
+                   <a href="/cn" class="btn btn-outline-primary pe-5 btn m-1">Computer Network</a>
+                   <a href="/os" class="btn btn-outline-primary pe-5 btn m-1">Operating System</a>
+                   <a href="/gateexmas" class="btn btn-outline-primary pe-5 btn m-1">Gate Exam</a>
+                   <a href="/servelts" class="btn btn-outline-primary pe-5 btn m-1">Servelets</a>
+                   <a href="/jsp" class="btn btn-outline-primary btn pe-5 m-1">Jsp</a>
+                   <a href="/engmaths" class="btn btn-outline-primary pe-5 btn m-1">Engg.Mathematics</a>
+                   <a href="/android" class="btn btn-outline-primary pe-5 btn m-1">Android</a>
+                   <a href="/comarchi" class="btn btn-outline-primary pe-5 btn m-1">Computer Architecture</a>
+                   <a href="/dsalgo" class="btn btn-outline-primary pe-5 btn m-1">DS & Algorithm</a>
+                   <a href="/aptitude" class="btn btn-outline-primary pe-5 btn m-1">Aptitude</a>
+                   <a href="/python" class="btn btn-outline-primary pe-5 btn m-1">Python</a>
+                   <a href="/bigdata" class="btn btn-outline-primary pe-5 btn m-1">Big Data</a>
+               </div>
+           </div>
+           <div class="col-md-6 p-4 mt-4 col-sm-12">
+               <img class="mt-5" src="images/test-exam.svg" alt="">
+           </div>
+       </div>
+   </div>
+   <div class="container">
+       <div class="text-end me-3 "  >
+           <div class="btn-group me-1"  role="filter" >
+                <a href="" class="btn btn-primary btn-lg pe-4 ps-4 "> <i class="far fa-clock" style="color:white;"></i> Recent</a>
+                <a href="" class="btn btn-outline-primary btn-lg pe-4 ps-4 "><i class="fas fa-fire pe-2" style="color:blue;"></i>Popular</a>
+           </div>
+           <div class="mt-0 ">
+            <span class="fw-light fs-5">(Order by Recent/Popular Tests)</span>
+           </div>
+        </div>
+   </div>
+   <div class="container mt-5">
+     <div class="row">
+       <div class="col-md-6 col-sm-12  m-auto">
+         <a href="#" style="text-decoration:none;">
+           <div class="card shadow-sm p-4">
+             <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+             <div class="mt-2">
+              <span class="btn btn-warning p-1 text-muted">Python </span>
+            </div>
+           <div class="button-set">
+             <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+             <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+             <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+           </div>
+          </div>
+         </a>
+       </div>
+
+       <div class="col-md-6 col-sm-12  m-auto">
+        <a href="#" style="text-decoration:none;">
+          <div class="card shadow-sm p-4">
+            <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+            <div class="mt-2">
+             <span class="btn btn-warning p-1 text-muted">Python </span>
+           </div>
+          <div class="button-set">
+            <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+            <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+            <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+          </div>
+        </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-sm-12  mt-5">
+        <a href="#" style="text-decoration:none;">
+          <div class="card shadow-sm p-4">
+            <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+            <div class="mt-2">
+             <span class="btn btn-warning p-1 text-muted">Python </span>
+           </div>
+          <div class="button-set">
+            <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+            <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+            <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+          </div>
+         </div>
+        </a>
+      </div>
+
+      <div class="col-md-6 col-sm-12  mt-5">
+       <a href="#" style="text-decoration:none;">
+         <div class="card shadow-sm p-4">
+           <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+           <div class="mt-2">
+            <span class="btn btn-warning p-1 text-muted">Python </span>
+          </div>
+         <div class="button-set">
+           <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+           <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+           <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+         </div>
+       </div>
+       </a>
+     </div>
+
+     <div class="col-md-6 col-sm-12 mt-5">
+      <a href="#" style="text-decoration:none;">
+        <div class="card shadow-sm p-4">
+          <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+          <div class="mt-2">
+           <span class="btn btn-warning p-1 text-muted">Python </span>
+         </div>
+        <div class="button-set">
+          <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+          <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+          <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+        </div>
+       </div>
+      </a>
+    </div>
+
+    <div class="col-md-6 col-sm-12  mt-5">
+     <a href="#" style="text-decoration:none;">
+       <div class="card shadow-sm p-4">
+         <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+         <div class="mt-2">
+          <span class="btn btn-warning p-1 text-muted">Python </span>
+        </div>
+       <div class="button-set">
+         <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+         <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+         <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+       </div>
+     </div>
+     </a>
+   </div>
+
+   <div class="col-md-6 col-sm-12  mt-5">
+    <a href="#" style="text-decoration:none;">
+      <div class="card shadow-sm p-4">
+        <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+        <div class="mt-2">
+         <span class="btn btn-warning p-1 text-muted">Python </span>
+       </div>
+      <div class="button-set">
+        <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+        <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+        <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+      </div>
+     </div>
+    </a>
+  </div>
+
+  <div class="col-md-6 col-sm-12  mt-5">
+   <a href="#" style="text-decoration:none;">
+     <div class="card shadow-sm p-4">
+       <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+       <div class="mt-2">
+        <span class="btn btn-warning p-1 text-muted">Python </span>
+      </div>
+     <div class="button-set">
+       <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+       <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+       <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+     </div>
+   </div>
+   </a>
+ </div>
+
+ <div class="col-md-6 col-sm-12  mt-5">
+  <a href="#" style="text-decoration:none;">
+    <div class="card shadow-sm p-4">
+      <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+      <div class="mt-2">
+       <span class="btn btn-warning p-1 text-muted">Python </span>
+     </div>
+    <div class="button-set">
+      <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+      <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+      <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+    </div>
+   </div>
+  </a>
+</div>
+
+<div class="col-md-6 col-sm-12  mt-5">
+ <a href="#" style="text-decoration:none;">
+   <div class="card shadow-sm p-4">
+     <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+     <div class="mt-2">
+      <span class="btn btn-warning p-1 text-muted">Python </span>
+    </div>
+   <div class="button-set">
+     <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+     <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+     <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+   </div>
+ </div>
+ </a>
+</div>
+
+<div class="col-md-6 col-sm-12  mt-5">
+  <a href="#" style="text-decoration:none;">
+    <div class="card shadow-sm p-4">
+      <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+      <div class="mt-2">
+       <span class="btn btn-warning p-1 text-muted">Python </span>
+     </div>
+    <div class="button-set">
+      <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+      <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+      <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+    </div>
+   </div>
+  </a>
+</div>
+
+<div class="col-md-6 col-sm-12 mt-5">
+ <a href="#" style="text-decoration:none;">
+   <div class="card shadow-sm p-4">
+     <h4 class="display-4 fs-1 fw-lighter  text-dark">Python Interview Preparation Test..</h4>
+     <div class="mt-2">
+      <span class="btn btn-warning p-1 text-muted">Python </span>
+    </div>
+   <div class="button-set">
+     <div class="btn btn-default btset"><i class="fas fa-bolt p-2" style="color:pink"></i>Average score</div>
+     <div class="btn btn-default btset"> <i class="fas fa-eye p-2" style="color:blue"></i>183</div>
+     <div class="btn btn-default btset"><i class="fas fa-lightbulb p-2" style="color:pink"></i>Intermediate</div>
+   </div>
+ </div>
+ </a>
+</div>
+
+
+       
+     </div>
+   </div>
+
+   <div class="container mt-5 ">
+     <div class="row">
+       <nav class="pagination">
+         <ul class=" ms-5">
+           <li class="na-item" >1</li>
+           <li class="na-item">2</li>
+           <li class="na-item">3</li>
+           <li class="na-item">4</li>    
+           <li class="na-item">5</li>
+           <li class="na-item">6</li>
+           <li class="na-item">7</li>
+           <li class="na-item">8</li>
+           <li class="na-item">9</li>
+           <li class="na-item">10</li>
+           <li class="na-item">11</li>
+           <li class="na-item">12</li>
+           <li class="na-item">13</li>
+           <li class="na-item">14</li>    
+           <li class="na-item">15</li>
+           <li class="na-item">16</li>
+         </ul>
+       </nav>
+     </div>
+   </div>
+   <footer class="pt-5 text-light " style="background-color: #4534aa;">
+    <div class="container-fluid">
+      <div class="row px-4">
+           <div class="col-lg-4 col-md-7 col-sm-12 p-2">
+            <h2 class="fw-light">studytonight.com&nbsp;
+              <sup><i class="fa fa-asterisk" aria-hidden="true"></i></sup>
+            </h2>
+            <p class="fw-light">© 2021 Studytonight Technologies Pvt. Ltd.</p>
+            <p class="text-light"> 
+              <a href="/about">About Us</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/testomonial">Testomonial</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/authors">Authors</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/colloborates">Collaborate</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/privacypolicy">Privacy Policy</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/terms">Terms</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/contact">Contact Us</a>
+            </p>
+            <p class="text-light"> 
+              <a href="/suggest">Suggest</a>
+            </p>
+           </div>
+           <div class="col-lg-4 col-md-5 col-sm-12 p-2">
+               <a href="/tutorial" style="text-decoration:none;">
+                 <div class="bg-primary-light text-dark shadow rounded mt-3 p-3 text-left">
+                     <div class="fs-5">
+                      <i class="fa fa-file" aria-hidden="true"></i>&nbsp&nbsp&nbspTutorials</div> 
+                 </div>
+               </a>
+               <a href="/tests" style="text-decoration:none;">
+                <div class="bg-primary-light text-dark shadow rounded mt-3 p-3 text-left">
+                  <div class="fs-5">
+                    <i class="fa fa-book" aria-hidden="true"></i>&nbsp&nbsp&nbspTests</div> 
+                </div>
+              </a>
+              <a href="/curious" style="text-decoration:none;">
+                <div class="bg-primary-light text-dark shadow rounded mt-3 p-3 text-left">
+                  <div class="fs-5">
+                    <i class="fa fa-hashtag" aria-hidden="true"></i> &nbsp&nbsp&nbspCurious</div> 
+                </div>
+              </a>
+              <a href="/coding" style="text-decoration:none;">
+                <div class="bg-primary-light text-dark  shadow rounded mt-3 p-3 text-left">
+                  <div class="fs-5">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>&nbsp&nbsp&nbspPractise Coding</div> 
+                </div>
+              </a>
+              <a href="/program" style="text-decoration:none;">
+                <div class="bg-primary-light text-dark  shadow rounded mt-3 p-3 text-left">
+                  <div class="fs-5">
+                    <i class="fa fa-user" aria-hidden="true"></i> &nbsp&nbsp&nbspEducators Program</div> 
+                </div>
+              </a>
+           </div>
+           <div class="col-lg-4 col-md-12 col-sm-12 p-2">
+             
+             <p>
+               <a href="https://www.facebook.com/Studytonight">
+                <i class="fa fa-facebook" aria-hidden="true"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Studytonight</span>
+               </a>
+             </p>
+
+             <p>
+              <a href="https://www.instagram.com/study.tonight">
+               <span><i class="fa fa-instagram" aria-hidden="true"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp @study.tonight</span>
+              </a>
+            </p>
+
+            <p>
+              <a href="https://www.linkedin.com/company/studytonight">
+               <span><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Studytonight</span>
+              </a>
+            </p>
+
+            <p>
+              <a href="https://www.twitter.com/studytonight">
+               <span><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp @studytonight</span>
+              </a>
+            </p>
+            
+            <p>
+              <a href="https://www.youtube.com/c/Studytonight">
+               <span><i class="fa fa-youtube-play" aria-hidden="true"></i>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Studytonight</span>
+              </a>
+            </p>
+           </div>
+          
+      </div>
+      </div>
+    
+</footer>
+</body>
+</html>

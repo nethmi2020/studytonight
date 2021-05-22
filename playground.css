@@ -1,0 +1,10 @@
+.moon-image{
+    background-image: url('images/moon.png');
+    background-position:top -60px right -25px ;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+.badge{
+    display: inline-block;
+    width: min-content;
+}

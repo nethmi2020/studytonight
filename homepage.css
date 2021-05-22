@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.player-buttons{
+  background: url('http://cdn1.iconfinder.com/data/icons/iconslandplayer/PNG/64x64/CircleBlue/Play1Pressed.png') center center no-repeat;
+    height: 128px;
+    left: 50%;
+    margin: -64px 0 0 -64px;
+    position: absolute;
+    top: 50%;
+    width: 128px;
+    z-index: 1; 
+
+}
+
+#search i {
+  font-size: 20px;
+  color: rgb(222, 222, 235);
+  background-color: rgb(27, 27, 133);
+  padding: 5px;
+  margin: 5px 15px 5px 5px;
+  margin-left: -35px;
+  border-radius: 5px;
+}
+.hero-back {
+  background: url(/css/resource.v3/images/hero-back-light.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #4535aa;
+  border-color: #4535aa;
+  font-size: larger;
+}
+
+.btn-outline-primary {
+  font-size: 20px;
+}
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #4535aa;
+  border-color: #4535aa;
+  font-size: larger;
+}
+
+.svg1 {
+  vertical-align: middle;
+  align-items: center;
+  margin-left: 50px;
+}
+.rounded {
+  border-radius: 10%;
+}
+
+/* .img {
+  width: 250px;
+  height: 150px;
+} */
+
+.white{
+  background-color: white;
+}
+.back-dark{
+  background: url(images/hero-back-dark.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+}
+.text-sm-center{
+  text-align: center !important;
+}
+.movedown{
+  align-items: center;
+  position: relative;
+    top: 60px;
+
+}
+.sub{
+  font-size: 15px;
+}
+.shadow-sm{
+  box-shadow:  5px 10px rgb(204, 200, 191);
+}
+.shadow-img{
+ width: 50px;
+ height: 50px;
+}
+
+.rounded-circle{
+  border-radius: 50%;
+}
+
+/* .carousel-dark{
+  background: url(images/hero-back-dark.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+ 
+  
+} */
+.back-grey{
+  background: url(images/hero-back-grey.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.caritem{
+  max-width: 65%;
+  align-items: center;
+  margin-left: 20%;
+  background-color:whitesmoke;
+  box-shadow: 0 5px 20px  darkgray;
+  border-radius: 5px;
+  margin-bottom:40px;
+ 
+}
+.caritem p{
+  padding: 10px 20px;
+}
+.px-4{
+  padding: 30px 50px;
+}
+.text-light a{
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.bg-primary-light{
+  background-color:lightgray ;
+  box-shadow: 0 5px 20px  darkgray;
+  border-radius: 10px;
+}
+.text-left{
+  font-size: 20px;
+}
+.text-left i{
+  color: rgb(231, 87, 195);
+}
+footer a{
+  text-decoration: none;
+}

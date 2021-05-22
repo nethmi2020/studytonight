@@ -1,0 +1,8 @@
+.badge{
+    padding: 12px;
+    color:white
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}

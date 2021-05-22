@@ -1,0 +1,35 @@
+.btn{
+    margin-bottom: 10px;
+}
+
+
+.text-end {
+   margin-left: 800px;
+}
+
+.btset{
+    /* display:inline-flex;
+    justify-content: space-between; */
+    background-color: rgb(240, 230, 230);
+    margin-left: auto;
+    border-radius:60px;
+    border-radius: 5px;
+}
+
+.text-dark{
+    font-size: 20px;
+}
+.pagination ul{
+    border:1px solid blueviolet;
+    display: inline-flex;
+    border-radius: 5px;
+  
+}
+.pagination ul li{
+  
+    border-right: 1px solid blueviolet;
+   display: block;
+    padding: 15px;
+    text-align: center;
+   
+}
