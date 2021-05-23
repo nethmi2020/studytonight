@@ -19,3 +19,46 @@
     background-color:#462bbb;
     /* background: url(/css/resource.v3/images/hero-back-dark.png); */
 }
+.accordian-item{
+    padding: 30px;
+    position: relative;
+}
+.accordian-header{
+    position: relative;
+    cursor: pointer;
+}
+.accordian-header::before{
+    content:'+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+}
+.accordian-item.active .accordian-header::before{
+    content:'-';
+    
+
+}
+.accordian-body a{
+    line-height:40px;
+    overflow: hidden;
+    transition: 0.5s;
+    padding: 40px;
+    color:black;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+
+}
+.accordian-body {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: 0.5s;
+    
+}
+.accordian-item.active .accordian-body{
+    height: 150px;
+    overflow: visible;
+}
